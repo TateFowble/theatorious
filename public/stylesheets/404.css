@@ -1,0 +1,12 @@
+.center {
+    margin:50px 50px 50px 50px;
+    color:#333;
+}
+.backhomelink {
+    text-align: center;
+    text-decoration: none;
+    color:#f1f1f1;
+    background-color: black;
+    border-radius: 5px;
+    padding:8px;
+}

@@ -1,0 +1,91 @@
+.burger {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    left:100%;
+    top:1.5em;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.navhomeimage {
+    margin-left: 15%;
+    width:3em;
+    float:left;
+    margin-top: 1em;
+    z-index: inherit;
+  }
+  .navigationgate {
+    position: sticky;
+    width:100%;
+    top:0px;
+    height:5em;
+    padding:0 10em 0 0;
+    background-color: #f1f1f1;
+    z-index: 1000;
+  }
+  /* Mobile Navigation after button is clicked */
+  .mobilenavigation {
+    display:inline-block;
+  }
+  .mobilenav0 {
+    width:100%;
+    background-color: #f1f1f1;
+    /* height:5em; */
+    z-index: 1000;
+  }
+  .mobilenav1 {
+    width:100%;
+    background-color: #f1f1f1;
+    /* height:25em; */
+    z-index: 1000;
+  }
+
+  /* END */
+  
+  .navigation {
+    position: relative;
+    width:100%;
+    display: none;
+    margin: 10em 0 0 0;
+    background-color: lightslategray;
+    z-index: inherit;
+  }
+  .navigation > div {
+    display:block;
+    height: unset;
+    width:100%;
+    /* background-color: #333; */
+    background-color: lime;
+    top:0;
+  }
+  .navigation > div > a {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    float: left;
+    font-size: 1.5em;
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    padding: 1em 1em 1.2em 1em;
+    text-decoration: none;
+    z-index: inherit;
+  }

@@ -1,0 +1,43 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap'); */
+
+body {
+  background-color: #f1f1f1;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.homepagecolor {
+  color: white;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+}
+.highlight {
+  background-color: white;
+  color: dodgerblue;
+}
+.highlight1 {
+  background-color: dodgerblue;
+  color: white;
+}
+  @keyframes pipe {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+h1,h2,h3,h4,h5,h6,p,a {
+  font-family: 'Play', sans-serif;
+}

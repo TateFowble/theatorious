@@ -1,0 +1,24 @@
+.warning {
+     position: relative;
+     color: black;
+     text-shadow: coral 0 0 3px;
+     background-color: #cf4746;
+     padding:1em 1em 1em 1em;
+     visibility: visible;
+}
+.warning > p {
+     text-align: center;
+}
+
+#clickOffWarning {
+     display: block;
+     width:100%;
+     font-size:1.5em;
+     background-color: #fa8578;
+     text-align: center;
+     border-radius: 10px;
+     cursor: pointer;
+}
+#warningPresence {
+     display:block;
+}

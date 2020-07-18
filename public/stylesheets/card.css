@@ -1,0 +1,40 @@
+/* body {
+    background-color: #2a2a2e;
+} */
+
+
+.sub {
+    font-size: 1px;
+}
+
+.card {
+    display: flex;
+    margin:2em 0 0 0;
+    flex-wrap: nowrap;
+}
+
+.card > div {
+    background-color: #bbeaff;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 5px;
+    font-family: 'Arimo', sans-serif;
+}
+.card > div > div {
+    background-color: white;
+    line-height:2em;
+    padding:20px 0 0 0;
+    width: auto;
+}
+
+.sidepadding {
+    position: relative;
+    width:10%;
+    height:600px;
+}
+.sidepadding > p {
+    opacity: 0;
+    cursor:context-menu;
+}
