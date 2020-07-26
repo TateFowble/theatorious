@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/what-we-do', function(req, res, next) {
-  res.render('404', { link1: navLinks.link1, link2: navLinks.link2, link3: navLinks.link3  });
+  res.render('what-we-do', { link1: navLinks.link1, link2: navLinks.link2, link3: navLinks.link3  });
 });
 
 router.get('/contact', function (req, res, next) {

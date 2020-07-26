@@ -1,6 +1,6 @@
 var a = 0;
 var text = 'saving one business at a time';
-var speed = 300;
+var speed = 200;
 
 function typeWriter() {
     if (a < text.length) {
