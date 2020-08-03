@@ -1,3 +1,8 @@
+<div class='warning' id='warningPresence'>
+    <p>Currently the official release of the contact page is still in development, so please just use your email.</p>
+    <br>
+    <span id='clickOffWarning' onclick='removeWarning(this)'>&#10799;</span>
+</div>
 <div id='navigation' class='navigationgate'>
     <a id='homenavimage' href='/'><img class='navhomeimage' src='../images/cloud-computing.png' alt=''></a>
     <div class='burger' onclick='changeBurger(this);mobileNavMap(this);'>
@@ -14,4 +19,18 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class='contact-section'>
+    <form action='POST'>
+        <p>Hello, my name is <input type='text' placeholder='Your Full Name'>
+        and I am needing to talk about a(n) 
+            <select name='toTalkAbout' id='toTalkAbout'>
+            <option value='question' selected=''>Question</option>
+            <option value='issue'>Issue</option>
+            <option value='concern'>Concern</option>
+            <option value='other'>Other</option>
+            </select>
+        for my business <input type='text' placeholder='Your Business Name'>.</p>
+    </form>
 </div>

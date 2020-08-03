@@ -1,7 +1,7 @@
 // Just for Mobile Navigation!
 var changeBurgerNum = 0;
 
-mobileNapMap();
+// mobileNapMap();
 
 function changeBurger(x) {
     switch (changeBurgerNum){
