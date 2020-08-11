@@ -10,7 +10,7 @@ var navLinks = {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'At', webtitle: 'The Atorious', link1: navLinks.link1, link2: navLinks.link2, link3: navLinks.link3 });
+  res.render('index', { title: '', webtitle: 'The Atorious', link1: navLinks.link1, link2: navLinks.link2, link3: navLinks.link3 });
 });
 
 router.get('/what-we-do', function(req, res, next) {
